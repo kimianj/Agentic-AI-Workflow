@@ -1,6 +1,6 @@
 # Medscape Agentic AI System
 
-** ✔ Objective**
+**✔ Objective**
 Multi-agent architecture
 
     Retriever Agent (knowledge base search)
@@ -269,3 +269,6 @@ Output:
 **Cardiology**: ROI = 1.586, Best tactic = HCP_Newsletter
 **Oncology**: ROI = 1.568, Best tactic = HCP_Newsletter
 ```
+=======
+# Agentic-AI-Workflow
+
