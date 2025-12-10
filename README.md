@@ -1,18 +1,19 @@
 # Medscape Agentic AI System
 
 **✔ Objective**
-Multi-agent architecture
+<ul>
+<li>Multi-agent architecture</li>
 
-    Retriever Agent (knowledge base search)
+<li>Retriever Agent (knowledge base search)</li>
 
-    Analytics Agent (ROI, comparisons, stability, recommendations)
+<li>Analytics Agent (ROI, comparisons, stability, recommendations)</li>
 
-Orchestrator / Controller Agent (LLM-driven reasoning loop)
-
-✔ Natural language → Structured recommendation
-✔ Tool-calling workflow
-✔ Complete architecture + design rationale
-✔ Clear path to production scalability 
+<li>Orchestrator / Controller Agent (LLM-driven reasoning loop)</li>
+</ul>
+✔ Natural language → Structured recommendation '\n'
+✔ Tool-calling workflow '\n'
+✔ Complete architecture + design rationale'\n'
+✔ Clear path to production scalability '\n'
 
 ---
 
