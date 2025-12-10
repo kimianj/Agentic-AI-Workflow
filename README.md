@@ -187,15 +187,26 @@ This separation of responsibilities makes the system transparent, debuggable, an
 
 ## 🚀 Running the Demo
 
-# Install dependencies
+### Install Dependencies
 ```bash
 pip install pandas pydantic
 ```
 
-### Run demo with sample queries
+### Option 1: Menu Selection
 ```bash
 python main.py
 ```
+
+### Option 2: Demo Mode (sample queries)
+```bash
+python main.py --demo  
+```
+
+### Option 3: Interactive Mode (ask your own questions)
+```bash
+python main.py --interactive 
+```
+`exit` to quit.
 
 ### With OpenAI (Real LLM)
 ```python
@@ -211,8 +222,11 @@ result = orchestrator.process("Compare Cardiology vs Oncology")
 
 ```
 medscape_final/
-├── main.py          # Everything in one file for clarity
-├── README.md        # This file
+├── main.py              # Entry point + CLI
+├── orchestrator.py      # Orchestrator class
+├── clients.py           # LLM clients - Mock + OpenAI
+├── tools.py             # Tool functions + definitions
+├── README.md
 └── data/
     ├── campaign_performance.csv
     ├── kb_documents.jsonl
