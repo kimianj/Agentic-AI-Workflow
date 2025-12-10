@@ -1,0 +1,3 @@
+1) Compare tactic performance for Cardiology vs Oncology in 2025Q2 and recommend where to shift 20% of Cardiology spend.
+2) For Endocrinology in 2025Q1–Q2, which two tactics have the highest ROI stability? Suggest next best action.
+3) If we need quick wins next quarter, should we emphasize Webinars or Email for Oncology? Provide rationale using retrieved KB.
