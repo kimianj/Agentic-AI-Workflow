@@ -16,6 +16,15 @@
 - ✔ Clear path to production scalability 
 
 ---
+## 🔑 Core Pattern: The Agentic Loop
+
+The orchestrator follows a simple loop:
+
+1. **Send** query + available tools to LLM
+2. **If** LLM requests tools → execute them → loop back to step 1
+3. **Else** → return LLM's final answer
+
+---
 
 ## 📋 Thought Process
 
@@ -174,15 +183,6 @@ This separation of responsibilities makes the system transparent, debuggable, an
 - Logging for all LLM calls and tool executions
 - Metrics dashboard for response times, tool usage
 - A/B testing for prompt variations
-
-
-## 🔑 Core Pattern: The Agentic Loop
-
-The orchestrator follows a simple loop:
-
-1. **Send** query + available tools to LLM
-2. **If** LLM requests tools → execute them → loop back to step 1
-3. **Else** → return LLM's final answer
 ---
 
 ## 🚀 Running the Demo
@@ -205,9 +205,7 @@ client = OpenAIClient(api_key="key")
 orchestrator = MedscapeOrchestrator(llm=client)
 result = orchestrator.process("Compare Cardiology vs Oncology")
 ```
-
 ---
-
 
 ## 📁 Project Structure
 
@@ -266,5 +264,3 @@ Output:
 **Cardiology**: ROI = 1.586, Best tactic = HCP_Newsletter
 **Oncology**: ROI = 1.568, Best tactic = HCP_Newsletter
 ```
-=======
-
