@@ -160,21 +160,17 @@ This separation of responsibilities makes the system transparent, debuggable, an
 
 ## 🚀 Scaling to Production
 
-**Phase 1: Enhanced NLU**
-- Replace MockLLM with real LLM (OpenAI/Anthropic)
-- Add prompt optimization and few-shot examples
-
-**Phase 2: Better Retrieval**
+**Phase 1: Better Retrieval**
 - Replace keyword search with vector embeddings (e.g., ChromaDB, Pinecone)
-- Semantic search for knowledge base
+- Semantic search for a knowledge base
 
-**Phase 3: Infrastructure**
+**Phase 2: Infrastructure**
 - Add Redis caching for frequent queries
 - PostgreSQL for campaign data (replace CSV)
 - FastAPI wrapper for REST API
 - Kubernetes for horizontal scaling
 
-**Phase 4: Observability**
+**Phase 3: Observability**
 - Logging for all LLM calls and tool executions
 - Metrics dashboard for response times, tool usage
 - A/B testing for prompt variations
