@@ -10,10 +10,10 @@
 
 <li>Orchestrator / Controller Agent (LLM-driven reasoning loop)</li>
 </ul>
-✔ Natural language → Structured recommendation '\n'
-✔ Tool-calling workflow '\n'
-✔ Complete architecture + design rationale'\n'
-✔ Clear path to production scalability '\n'
+- ✔ Natural language → Structured recommendation 
+- ✔ Tool-calling workflow 
+- ✔ Complete architecture + design rationale
+- ✔ Clear path to production scalability 
 
 ---
 
